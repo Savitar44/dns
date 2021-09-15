@@ -13,7 +13,7 @@ echo -e
 sleep 4s
 echo -e "\033[44mREMOVENDO LIXO...\033[0m"
 sleep 4s
-rm -rf start && rm -rf opt_1
+rm -rf start && rm -rf opt_1 && rm -rf opt_2
 clear
 echo -e "\E[41;1;37mSCRIPT DESINSTALADO COM SUCESSO! \E[0m"
 sleep 4s
