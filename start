@@ -12,10 +12,10 @@ read option
 
    case $option in
    (1)
-   curl -sO https://raw.githubusercontent.com/bot127418/dns/main/opt_1 && chmod 777 opt_1 && ./opt_1
+   curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/opt_1 && chmod 777 opt_1 && ./opt_1
    ;;
    (2)
-   curl -sO https://raw.githubusercontent.com/bot127418/dns/main/opt_2 && chmod 777 opt_2 && ./opt_2
+   curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/opt_2 && chmod 777 opt_2 && ./opt_2
    ;;
    (3)
    clear
@@ -29,6 +29,6 @@ sleep 2s
 echo -e
 echo -e "\033[1;31mRetornando...\033[0m"
 sleep 2s
-curl -sO https://raw.githubusercontent.com/bot127418/dns/main/start && chmod 777 start && ./start
+curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/start && chmod 777 start && ./start
 
 esac
