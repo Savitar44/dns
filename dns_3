@@ -1,0 +1,17 @@
+#!/bin/bash
+clear
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[41;1;37m     • ADGUARD DNS • \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e
+sleep 2s
+echo -e "\033[42mINICIANDO DNS...\033[0m"
+sleep 2s
+ping 94.140.14.14
+echo -e
+echo -e "\033[42mPARANDO DNS...\033[0m"
+sleep 2s
+clear
+echo -e "\033[1;31mRetornando...\033[0m"
+sleep 2s
+curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/opt_3 && chmod 777 opt_3 && ./opt_3
