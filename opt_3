@@ -15,6 +15,7 @@ read options
    curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/dns_1 && chmod 777 dns_1 && ./dns
    ;;
    (2)
+   echo -e ""
    (*) echo -e "\033[1;31mOpção invalida\033[1;37m"
 
 esac
