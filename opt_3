@@ -12,7 +12,7 @@ read options
 
    case $options in
    (1)
-   curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/dns_1 && chmod 777 dns_1 && ./dns
+   curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/dns_1 && chmod 777 dns_1 && ./dns_1
    ;;
    (2)
    clear
