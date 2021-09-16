@@ -7,10 +7,10 @@ echo -e
 echo -e "\033[44mDIGITE SEU DNS : \033[0m"
 read DNS
 echo -e
-echo -e "\E[41;1;37mINICIANDO DNS...\E[0m"
+echo -e "\033[42mINICIANDO DNS...\033[0m"
 ping $DNS
 echo -e
-echo -e "\E[41;1;37mPARANDO DNS...\E[0m"
+echo -e "\033[42mPARANDO DNS...\033[0m"
 sleep 2s
 clear
 echo -e "\033[1;31mRetornando...\033[0m"
