@@ -15,7 +15,13 @@ read options
    curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/dns_1 && chmod 777 dns_1 && ./dns
    ;;
    (2)
-   echo -e ""
+   clear
+   
    (*) echo -e "\033[1;31mOpção invalida\033[1;37m"
+sleep 2s
+echo -e
+echo -e "\033[1;31mRetornando...\033[0m" -e "\033[1;31mRetornando...\033[0m"
+sleep 2s
+curl -sO https://raw.githubusercontent.com/Savitar44/dns/main/opt_3 && chmod 777 opt_3 && ./opt_3
 
 esac
