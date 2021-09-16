@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[41;1;37m     • GOOGLE DNS • \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e
+sleep 2s
+echo -e "\033[42mINICIANDO DNS...\033[0m"
+sleep 2s
+ping 8.8.8.8
